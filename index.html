@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdApp</title>
+</head>
+<body>
+    <header>
+      <h1>IdApp</h1>
+    </header>
+    <main>
+       <form onsubmit="check()">
+            <p>What is on the video?</p>
+            <input type="text" id="userAnswer" placeholder="Type your answer here">
+            <button type="button">Submit </button>
+        </form>
+         <video id="videoPlayer" width="640" height="360" controls>
+            <source src="path_to_your_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </main>
+</body>
+</html>
