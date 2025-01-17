@@ -1,0 +1,14 @@
+
+main{
+    display: flex;
+    form{
+        border: 10px solid red;
+        flex: 1; /* Allows items to grow equally */
+        width: 50%;
+    }
+    video{
+        border: 10px solid blue;
+        flex: 1; /* Allows items to grow equally */
+        width: 50%;
+    }
+}
