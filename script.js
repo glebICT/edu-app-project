@@ -4,10 +4,12 @@ function check(event){
     
     // Access the input value
     const inputValue = event.target.userAnswer.value; // Assuming the input has the id 'userAnswer'
-     if (inputValue.length == 0) {
-        alert("Enter: Answer required");
+     if (inputValue == 'lego') {
+        alert("Answer correct");
         return false;
     }
-    alert("From submitted"); // Alert the user that the form was submitted
-    console.log(inputValue); // Log the input value
+   else{
+      alert("Answer incorrect");
+        return false;
+   }
 }
