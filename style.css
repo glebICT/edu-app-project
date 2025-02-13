@@ -1,14 +1,29 @@
+html{
+    color-scheme: light dark;
+}
 
 main{
     display: flex;
+    gap: 1rem;
     form{
-        border: 10px solid red;
         flex: 1; /* Allows items to grow equally */
         width: 50%;
+        zoom: 2;
     }
     video{
-        border: 10px solid blue;
         flex: 1; /* Allows items to grow equally */
         width: 50%;
     }
+}
+@media screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        form{
+            width: 100%;
+        }
+        video{
+            width: 100%;
+        }
+    }
+    
 }
