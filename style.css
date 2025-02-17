@@ -1,5 +1,13 @@
 html{
     color-scheme: light dark;
+    header{
+        display: flex;
+        justify-content: space-between;
+        output{
+            font-family: monospace;
+            font-size: 2rem;
+        }
+    }
 }
 
 main{
